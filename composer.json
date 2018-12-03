@@ -1,0 +1,19 @@
+{
+    "name": "shivanshu/bud",
+    "description": "Test project",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "require-dev": {
+        "behat/behat": "^3.5",
+        "phpspec/phpspec": "^5.1",
+        "phpunit/phpunit": "^7.4"
+    }
+}
